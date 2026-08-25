@@ -5,13 +5,13 @@ void main() {
     home: HomePage(),
   ),
 
-    // Checkpoint 1
+    // ==================== CHECKPOINT 1 - COMMENTED ====================
 
     // const MaterialApp(
     //   home: Text('My name is Bader Almutairi'),
     // ),
     
-    // Checkpoint 2
+    // ==================== CHECKPOINT 2 - COMMENTED ====================
     
     // const MaterialApp(
     //   debugShowCheckedModeBanner: false,      
@@ -25,7 +25,7 @@ void main() {
     // )
 
 
-    // Checkpoint 3
+    // ==================== CHECKPOINT 3 - COMMENTED ====================
 
 
     //      MaterialApp(
@@ -81,7 +81,7 @@ void main() {
 
 }
 
-// checkpoint 4 and 5 
+// ==================== CHECKPOINT 4 AND 5 - COMMENTED ====================
 // class MyApp extends StatelessWidget {
 //     const MyApp({super.key});
 //     @override
@@ -126,7 +126,7 @@ void main() {
 //     // );
 
 
-//     // Checkpoint 5
+//     // ==================== CHECKPOINT 5 - COMMENTED ====================
 //     MaterialApp(
 //       debugShowCheckedModeBanner: false,
 //       title: 'SWE 463 Demo 1',
@@ -173,7 +173,7 @@ void main() {
 
 
 
-// Checkpoint 6
+// ==================== CHECKPOINT 6 - FINAL ACTIVE CODE ====================
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
