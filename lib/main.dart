@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
 
 void main() {
-  runApp(
+  runApp( const MyApp()
 
     // Checkpoint 1
 
@@ -23,7 +23,29 @@ void main() {
     // )
 
 
-    // Checkpoint 3
+    
+
+    // Checkpoint 4
+
+
+
+
+
+
+
+  );
+
+
+
+
+}
+
+// Checkpoint 5
+class MyApp extends StatelessWidget {
+    const MyApp({super.key});
+    @override
+    Widget build(BuildContext context){
+      return // Checkpoint 3
      MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
@@ -54,15 +76,12 @@ void main() {
         ),
 
         body: const Center(
-          child: Text('Open the drawer from the menu icon', style: TextStyle(fontSize: 20) )
+          child: Text('Hot Reload is working!', style: TextStyle(fontSize: 24) )
         )
 
 
       )
 
-    )
-
-
-
-  );
-}
+    );
+    }
+  }
